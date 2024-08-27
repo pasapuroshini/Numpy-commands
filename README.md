@@ -185,3 +185,45 @@ Output:
 ```
 np.sort(arr)
 ```
+**List to Numpy Array**
+
+```
+np.asarray(list)
+```
+***aray of evenly spaced values --->specifying no of values required**
+```
+e=np.linspace(10,30,5)
+print(e)
+```
+
+
+***aray of evenly spaced values --->specifying the step**
+```
+e=np.arange(10,30,5)
+print(e)
+```
+
+***Transpose**
+
+```
+trans= np.transpose(array)
+```
+or
+```
+trans=array.T
+
+```
+**Searching in an array**
+```
+x=np.where(arrayname==item)
+```
+
+**Splitting arrays**
+```
+np.array_split(arr,NO_OF_PARTS)
+```
+**JOINING arrays**
+```
+np.concatenate(arr,arr2)
+```
+
